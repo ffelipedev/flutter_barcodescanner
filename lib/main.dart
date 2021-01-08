@@ -12,7 +12,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return GetMaterialApp(
       getPages: [
-        //name = rota
+         
         GetPage(name: '/', page: () => HomePage()),
       ],
     );
